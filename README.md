@@ -4,3 +4,4 @@ Youtube example
 
 ## Version control
 - V1.0 Initial commit
+- V1.2 Update new users

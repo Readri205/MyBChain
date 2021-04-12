@@ -112,7 +112,10 @@ class Wallet {
 const satoshi = new Wallet();
 const bob = new Wallet();
 const alice = new Wallet();
+const ben = new Wallet();
+const dickie = new Wallet();
 satoshi.sendMoney(50, bob.publicKey);
 bob.sendMoney(23, alice.publicKey);
 alice.sendMoney(5, bob.publicKey);
+ben.sendMoney(200, dickie.publicKey);
 console.log(Chain.instance);
